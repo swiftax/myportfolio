@@ -1,0 +1,488 @@
+/* BACKGROUNDS AND COLORS */
+body {
+	background-color: #fffeea;
+	color: #34495e;
+	position: relative;
+}
+
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.heading {
+	margin-top: 8em;
+}
+
+.carousel-caption  {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.carousel-caption h3 {
+	margin-top: -23em;
+}
+
+
+.carousel-caption p {
+	text-transform: lowercase;
+}
+
+.carousel-caption h1 {
+	font-size: 4em;
+}
+
+.nav li a {
+	text-transform: uppercase;
+}
+
+.navbar .container-fluid {
+	background-color: #fff;
+}
+
+.learn-more {
+	text-align: center;
+}
+
+#about {
+	background-image: url('../img/city.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding-bottom: 2em;
+}
+
+.nav li a:hover {
+	color: #000;
+	-webkit-transition: color 600ms;
+}
+
+button.navbar-toggle {
+	background-color: #376a74;
+}
+ 
+.skills {
+	background-color: #376a74;
+	color: #FFF;
+	border: 1px #fff solid;
+}
+ 
+.glyphicon:hover {
+	color: #fff;
+	-webkit-transition: color 1200ms;
+}
+
+.glyphicon {
+	color: #bc964f;
+}
+
+
+ img {
+	height: 100%;
+	width: 100%;
+}
+
+.btn-primary {
+	background-color: #376a74;
+}
+ 
+#headingOne,
+#headingTwo,
+#headingThree,
+#headingFour {
+	background-color: #bc964f;
+	color: #fff;
+}
+ 
+.panel a:hover {
+	color: #000;
+	-webkit-transition: color 600ms;
+}
+ 
+.panel-body {
+	color: #000;
+}
+
+/* FAQ */
+
+/*Table */
+
+.my-row {
+	background-color: #fff;
+	color: #000;
+}
+
+.top-row {
+	background-color: #000;
+	color: #fff;
+}
+
+.features {
+	border: 1px solid #333;
+	width: 100%;
+	margin-bottom: 1em;
+}
+#contact {
+	background-image: url('../img/piano.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	background-attachment: fixed;
+	padding-bottom: 5em;
+	margin-top: 2em;
+}
+
+th {
+	font-weight: bold;
+}
+ 
+ .social > button {
+	background-color: transparent;
+	border: 0.25rem #fff solid;
+	height: 4rem;
+	width: 8rem;
+}
+ 
+.social > button > a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#submit-button {
+	background-color:#376a74;
+	color: #fff;
+}
+
+#submit-button:hover {
+	background-color: #bc964f;
+	color: #fff;
+	-webkit-transition: background-color 1400ms;
+}
+ 
+footer {
+	background-color: #376a74;
+	color: #fff;
+}
+
+.about-footer {
+	background-color: #fff;
+	color: #000;
+	font-weight: 900;
+}
+
+.contact-footer {
+	background-color: #3b2b2b;
+}
+
+ 
+/* TYPOGRAPHY */
+ 
+* {
+	font-family: 'PT Sans', 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+	font-style: italic;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+ 
+h1,
+h2,
+h3 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+ 
+.intro p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+}
+ 
+ 
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.form-horizontal {
+	color: #000;
+}
+
+.control-label {
+	color: #fff;
+}
+ 
+footer p {
+	text-transform: uppercase;
+}
+ 
+ 
+/* POSITIONING */
+
+
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.carousel-caption {
+	position: relative;
+}
+
+p {
+	-webkit-margin-before: 0;
+}
+#skill_list {
+	margin-left: 50px;
+}
+
+ 
+.main_text {
+	clear: both;
+	padding-top: 4rem;
+}
+ 
+.header {
+	margin-bottom: 40px;
+	margin-top: 7.5%;
+}
+ 
+.header h1 {
+	text-align: center;
+}
+ 
+.photo {
+	display: inline-block;
+	float: left;
+	margin-right: 0.5rem;
+}
+ 
+.column {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	position: relative;
+	margin: 0 0.75rem;
+}
+
+ 
+.intro {
+	width: 35rem;
+}
+
+/* Portfolio */
+
+.portfolio-header {
+	background-image: url('../img/piano.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 512px;
+}
+
+.portfolio-header h1 {
+	padding-top: 5em;
+	text-align: center;
+	color: #fff;
+}
+
+#mobile-only-portfolio {
+	display: none;
+}
+
+.image {
+	box-sizing: border-box;
+	border: 2px solid #000;
+	width: 39em;
+	height: 19.125em;
+	margin: 0.25em;
+	display: inline-block;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 480px) {
+	#portfolio {
+		display: none;
+	}
+	#mobile-only-portfolio {
+		display: block;
+	}
+}
+
+
+.info {
+	display: inline-block;
+	color: #fff;
+	font-family: Futura;
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 1.6;
+	position: absolute;
+	top: 30%;
+	left: 22%;
+	font-size: 2em;
+}
+
+.proj-title {
+	font-weight: 400;
+	font-size: 1em;
+}
+
+
+/* FAQ */
+
+.learn-more {
+	text-align: left;
+	float: left;
+	padding-top: 1.5em;
+}
+
+.modal-button {
+	float: right;
+	padding: 0.9375em;
+	margin-top: 4em;
+}
+ 
+.modal-body {
+	height: 500px;
+}
+
+#resume {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+.form-group > .form-control {
+	width: 70%;
+}
+
+/* CONTACT */
+
+.contact-h1 {
+	padding-top: 1em;
+}
+
+#contact > .container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+ .contact-heading {
+	margin: 2.5% 20% 0 20%;
+	text-align: center;
+}
+
+#visible-comment,
+#charCount {
+	font-size: 2.5em;
+	font-style: italic; 
+	text-align: center;
+}
+ 
+ 
+.small-paragraph {
+	margin: 2.5% 20% 0 20%;
+	text-align: center;
+	font-style: italic;
+	font-weight: 300;
+}
+.address {
+	margin-top: 2.5%;
+}
+ 
+.address > h1 {
+	margin: auto;
+	text-align: center;
+}
+ 
+.social {
+	text-align: center;
+	margin-top: 2.5%;
+}
+
+.btn-primary {
+	width: 100%;
+}
+ 
+.social > button {
+	margin: 0 0.25em;
+}
+
+.address {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 2.5% 0;
+	bottom: 0;
+}
+
+/* RESPONSIVE STYLES */
+
+@media (max-width: 480px) {
+	.skills {
+		width: 100%;
+		text-align: center;
+	}
+
+	#skill_list li {
+		text-align: left;
+	}
+
+	h3.welcome {
+		margin-bottom: -6em;
+	}
+
+	.carousel-caption h3 {
+		margin-top: 20em;
+		font-size: 75%;
+	}
+
+	.carousel-caption h1 {
+		margin-top: 3em;
+		font-size: 2em;
+	}
+
+	.carousel-caption p {
+		width: 100%;
+	}
+
+	.carousel-caption {
+		font-size: 50%;
+	}
+
+	.modal-lg {
+	height: 300px;
+}
+
+	#resume {
+		width: 80%;
+		height: 300px;
+	}
+
+	.address h2 {
+		font-size: 90%;
+	}
+	h2.email-address  {
+		font-size: 90%;
+	}
+	.intro p {
+		font-size: 0.9em;
+		width: 100%;
+	}
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
